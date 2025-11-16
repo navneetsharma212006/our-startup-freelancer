@@ -1,8 +1,18 @@
 import { View, Text, TextInput,Button } from 'react-native'
-import React, { useState } from 'react'
+import React, { useReducer, useState } from 'react'
+
+const initialState={Data:[]}
+
+const reducer=(state,action)=>{
+  switch(action.type){
+    case 'add':return {}
+  }
+}
 
 const TodoList = () => {
-    const [Data,SetData]=useState([])
+
+  const [state,dispatch]=useReducer(reducer,initialState)
+    // const [Data,SetData]=useState([])
     const [input,SetInput]=useState('')
 
     const Handle=()=>{

@@ -18,7 +18,10 @@ import Toggle from '../components/Toggle'
 import Weather from '../components/Weather'
 import BgColor from '../components/BgColor'
 import TodoList from '../components/TodoList'
-
+import UseEfect from '../components/UseEfect'
+import UseReduc from '../components/UseEfect'
+import { UserContext, UserProvider } from '../Context/UserContext'
+import useContext from '../components/useContext'
 const products = [
   {
     image: "https://picsum.photos/200/300?random=1",
@@ -38,7 +41,7 @@ const products = [
 
 const index = () => {
   return (
-    <View style={styles.container}>
+    <View>
 {/* //    <View style={styles.innerContainer}><Greet/></View>
 // <View  style={styles.innerContainer}><Name/></View>
 // <View  style={styles.innerContainer}>  <Handle/></View>
@@ -64,22 +67,28 @@ const index = () => {
 <Toggle/> */}
 {/* <Weather/> */}
 {/* <BgColor/> */}
-<TodoList/>
+{/* <TodoList/> */}
+{/* <UseEfect/> */}
+{/* <UseReduc/> */}
+{/* <UserProvider>
+  <useContext/>
+</UserProvider> */}
+   <Text className="text-lg font-bold text-blue-800">Hello NativeWind!</Text>
     </View>
   )
 }
 
-const styles=StyleSheet.create({
-container:{
-  flex:1,
-  justifyContent:'center',
-  alignItems:'center'
-},
-innerContainer:{
-  margin:10,
-  padding:10,
-  borderRadius:1,
-  shadowRadius:1,
-}})
+// const styles=StyleSheet.create({
+// container:{
+//   flex:1,
+//   justifyContent:'center',
+//   alignItems:'center'
+// },
+// innerContainer:{
+//   margin:10,
+//   padding:10,
+//   borderRadius:1,
+//   shadowRadius:1,
+// }})
 
 export default index
