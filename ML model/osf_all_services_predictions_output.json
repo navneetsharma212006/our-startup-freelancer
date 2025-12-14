@@ -1,0 +1,60 @@
+{
+  "model_info": {
+    "model_type": "Random Forest Regressor",
+    "currency": "INR",
+    "exchange_rate": "1 USD = 83 INR",
+    "timestamp": "2025-12-14 14:21:42"
+  },
+  "predictions": {
+    "Logo Design": {
+      "service": "Logo Design",
+      "estimated_cost": {
+        "min": 41531.02,
+        "max": 46907.77,
+        "average": 44219.4
+      },
+      "currency": "INR",
+      "note": "Actual cost may vary based on project complexity and requirements"
+    },
+    "Web Design": {
+      "service": "Web Design",
+      "estimated_cost": {
+        "min": 246250.62,
+        "max": 277628.52,
+        "average": 261939.57
+      },
+      "currency": "INR",
+      "note": "Actual cost may vary based on project complexity and requirements"
+    },
+    "Editing": {
+      "service": "Editing",
+      "estimated_cost": {
+        "min": 29017.44,
+        "max": 30937.52,
+        "average": 29977.48
+      },
+      "currency": "INR",
+      "note": "Actual cost may vary based on project complexity and requirements"
+    },
+    "Ads": {
+      "service": "Ads",
+      "estimated_cost": {
+        "min": 75273.85,
+        "max": 84307.59,
+        "average": 79790.72
+      },
+      "currency": "INR",
+      "note": "Actual cost may vary based on project complexity and requirements"
+    },
+    "Branding": {
+      "service": "Branding",
+      "estimated_cost": {
+        "min": 372805.05,
+        "max": 417929.83,
+        "average": 395367.44
+      },
+      "currency": "INR",
+      "note": "Actual cost may vary based on project complexity and requirements"
+    }
+  }
+}
