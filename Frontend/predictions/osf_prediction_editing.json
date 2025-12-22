@@ -1,0 +1,11 @@
+{
+  "service": "Editing",
+  "estimated_cost": {
+    "min": 28000,
+    "max": 29600,
+    "average": 28800
+  },
+  "currency": "INR",
+  "timestamp": "2025-12-20 23:19:21",
+  "note": "Actual cost may vary based on project complexity and requirements"
+}
